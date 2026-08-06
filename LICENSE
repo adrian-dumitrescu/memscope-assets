@@ -1,0 +1,310 @@
+MemScope Software License Agreement
+====================================
+
+Version:        3
+Effective:      2026-08-06
+Licensor:       Adrian Dumitrescu (Romania)
+                — to be assigned to the Licensor's commercial entity
+                  upon its registration; users acquire no obligation to
+                  re-accept this Agreement on that assignment, and the
+                  successor entity inherits all obligations.
+Contact:        dumitrescu.adrian121@gmail.com
+Distribution:   PyPI as `memscope-fw` (https://pypi.org/project/memscope-fw/)
+Governing law:  Romanian law; courts of Bucharest, Romania have
+                exclusive jurisdiction (see clause 10).
+
+Copyright (c) 2026 Adrian Dumitrescu. All rights reserved.
+
+By installing, copying, or otherwise using MemScope ("the Software"),
+you ("the User") accept the terms below. If you have a separately-
+signed written agreement with the Licensor that covers MemScope, that
+agreement governs your use and supersedes this LICENSE file where the
+two conflict.
+
+This Agreement governs copies of the Software distributed on or after
+its effective date. Copies obtained earlier remain governed by the
+version of this Agreement distributed with them.
+
+
+==================================================================
+PLAIN-ENGLISH SUMMARY (NOT LEGALLY BINDING — see clauses 1-11 below)
+==================================================================
+
+This summary exists so a procurement or legal reviewer can decide in
+30 seconds whether they need to read further. The binding terms are
+in clauses 1-11. Where this summary and those clauses conflict, the
+clauses control.
+
+  * MEMSCOPE IS FREE FOR ANY USE, INCLUDING COMMERCIAL USE INSIDE A
+    COMPANY. The `memscope-fw` distribution published on the Python
+    Package Index (PyPI) is free of charge. No payment, no licence
+    key, no seat count, no time limit, no per-user fee, no feature
+    locked behind a purchase. Individuals, contractors, startups,
+    and large enterprises may install it and run every command it
+    ships with, for any internal business purpose, indefinitely.
+
+  * YOU DO NOT NEED TO CONTACT US TO USE IT. There is nothing to
+    purchase, register, activate, or renew, and no licence key to
+    obtain. Install it and use it. (On first run the Software shows
+    a short summary of these terms and asks you to accept it once;
+    that is the only step, it happens locally, and nothing is
+    transmitted.)
+
+  * IT RUNS ENTIRELY ON YOUR MACHINE. The Software makes no network
+    calls in normal operation. Your build artifacts, symbol names,
+    file paths, and reports never leave your computer.
+
+  * SOURCE CODE IS NOT DISTRIBUTED. MemScope is not open source and
+    is not licensed under any OSI-approved or FSF-recognised licence.
+    You receive the binary distribution and the right to use it under
+    clauses 1-11.
+
+  * WHAT YOU MAY NOT DO: redistribute or resell it, or strip the
+    copyright and licence notices. See clause 4 for the full list.
+    Using it inside your company, on as many machines as you like,
+    is expressly permitted.
+
+  * NEED SOMETHING WE DON'T SHIP? Custom extensions and bespoke
+    engineering work are available by arrangement, are NOT part of
+    this Agreement, and are licensed separately as their own
+    software. Just email dumitrescu.adrian121@gmail.com and we will
+    discuss what you need. Nothing about that conversation changes
+    your right to keep using the free Software under this Agreement.
+
+End of summary. The binding agreement begins below.
+
+
+1. DEFINITIONS
+--------------
+
+"Licensor" means Adrian Dumitrescu, the copyright holder, or the
+   commercial entity to which this Agreement is assigned upon its
+   registration.
+"User" means the individual or entity installing or using the Software.
+"Software" means MemScope as distributed by the Licensor on PyPI under
+   the distribution name `memscope-fw`, including its documentation
+   and any updates the Licensor makes generally available under this
+   Agreement.
+"Custom Extension" means any software, feature, adaptation, or
+   engineering work that the Licensor supplies to a particular User
+   outside the Software as defined above. Custom Extensions are not
+   licensed under this Agreement (clause 3).
+
+
+2. GRANT OF LICENCE
+-------------------
+
+Subject to the User's compliance with this Agreement, the Licensor
+grants the User a worldwide, non-exclusive, non-transferable,
+royalty-free licence to install and use the Software:
+
+  (a) on any number of machines the User owns or is authorised to
+      operate;
+  (b) for any purpose, INCLUDING use by a company, organisation, or
+      public body in connection with its commercial activities, and
+      including use in automated build and continuous-integration
+      systems (this Agreement does not limit use to non-commercial
+      users);
+  (c) subject to the restrictions in clause 4.
+
+The Software is licensed free of charge. No payment, licence key,
+purchase, registration, activation, or contact with the Licensor is
+required to install the Software from PyPI and use it indefinitely,
+including by for-profit entities of any size.
+
+The licence granted in this clause 2 for a copy of the Software
+lawfully obtained by the User continues for as long as the User
+complies with this Agreement, and ends only as provided in clause 8.
+The Licensor may publish revised terms for future releases; those
+revised terms do not retroactively affect copies already obtained.
+
+The Software is licensed, not sold. The Licensor retains all rights,
+title, and interest in and to the Software, including all intellectual
+property rights. No rights are granted under any licence approved by
+the Open Source Initiative or recognised as a Free Software licence by
+the Free Software Foundation. In particular, the User receives no
+right to access, redistribute, publish, or sublicense the source code;
+this Agreement covers use of the distributed binary only.
+
+No trademark licence is granted. "MemScope", the Licensor's names,
+logos, and product names remain the property of the Licensor, and
+nothing in this Agreement permits their use except as required for
+factual, descriptive reference to the Software.
+
+
+3. CUSTOM EXTENSIONS
+--------------------
+
+The Licensor may, by separate arrangement, supply a User with a Custom
+Extension — for example an adaptation to a toolchain or output format
+the Software does not support, or bespoke engineering work for that
+User's environment.
+
+This Agreement licenses only the `memscope-fw` distribution published
+on PyPI. Any other software the Licensor supplies — including any
+customer-specific build, extension module, or adaptation, whether
+delivered as a separate package or as a build produced for one User —
+is separate software, is NOT licensed under this Agreement, and no
+rights to it are granted here.
+
+Custom Extensions are NOT distributed on PyPI and carry no terms
+described in this Agreement. Each is supplied under its own separate
+written agreement between the Licensor and that User, delivered with
+it, setting out its own scope, delivery, support, and licence terms.
+Where a User holds such an agreement, it governs that software and
+supersedes this Agreement in respect of it.
+
+Users interested in a Custom Extension should contact the Licensor at
+dumitrescu.adrian121@gmail.com.
+
+Nothing in this clause affects, conditions, or limits the User's
+licence to the Software under clause 2. A User who never requests a
+Custom Extension retains the full, free licence granted in clause 2.
+
+
+4. RESTRICTIONS
+---------------
+
+The User shall NOT:
+
+  (a) redistribute, resell, sublicense, rent, lease, lend, publish,
+      or otherwise transfer the Software to any third party without
+      prior written permission from the Licensor;
+  (b) reverse engineer, decompile, or disassemble any technical
+      protection measure, feature gate, or terms-acceptance mechanism
+      in the Software, except to the extent expressly permitted by
+      applicable law notwithstanding this restriction (including
+      without limitation Article 6 of EU Directive 2009/24/EC for
+      interoperability purposes);
+  (c) circumvent, disable, or otherwise interfere with any technical
+      protection, integrity, or provenance measure in the Software, or
+      misrepresent the licensed recipient of any software supplied by
+      the Licensor;
+  (d) remove, alter, or obscure any copyright, trademark, licence,
+      proprietary notice, or provenance identifier included in or
+      generated by the Software;
+  (e) use the Software in any manner that violates applicable law.
+
+Inspecting the Software's behaviour and adapting it for the User's own
+internal use is permitted; redistribution of any modified version is
+not.
+
+
+5. DATA + PRIVACY
+-----------------
+
+The Software runs entirely on the User's machine and makes no network
+calls of any kind in normal operation. No build artifacts (ELF, MAP,
+linker scripts), analysis reports, file paths, symbol names, or any
+other content from the User's environment is transmitted by the
+Software to the Licensor or to any third party.
+
+Optional telemetry, if explicitly enabled by the User in
+`memscope.toml`, is described in `docs/public/privacy.md`. Telemetry
+is OFF by default; when enabled, the User specifies the recipient
+endpoint, and the Licensor neither receives nor stores telemetry data.
+
+
+6. WARRANTY DISCLAIMER
+----------------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT. THIS DISCLAIMER DOES NOT EXCLUDE OR LIMIT
+WARRANTIES THAT CANNOT BE EXCLUDED OR LIMITED UNDER APPLICABLE
+CONSUMER PROTECTION LAW, INCLUDING WHERE THE USER IS A NATURAL
+PERSON ACTING OUTSIDE THEIR TRADE, BUSINESS, OR PROFESSION.
+
+
+7. LIMITATION OF LIABILITY
+--------------------------
+
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING
+BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE. NOTHING IN THIS LIMITATION EXCLUDES
+LIABILITY THAT CANNOT BE EXCLUDED UNDER APPLICABLE LAW.
+
+
+8. TERMINATION
+--------------
+
+This licence terminates automatically if the User materially breaches
+any of its terms and fails to cure the breach within thirty (30) days
+of written notice (where the breach is capable of being cured). Upon
+termination, the User must cease all use of the Software and destroy
+all copies in their possession.
+
+Clauses 6, 7, 10, and 11 survive termination.
+
+
+9. CONTACT
+----------
+
+For Custom Extension enquiries, support questions, bug reports, or any
+question about this Agreement:
+
+    dumitrescu.adrian121@gmail.com
+
+
+10. GOVERNING LAW + JURISDICTION
+--------------------------------
+
+This Agreement is governed by and construed in accordance with the
+laws of Romania, without regard to its conflict-of-laws provisions
+and excluding the United Nations Convention on Contracts for the
+International Sale of Goods.
+
+The courts of Bucharest, Romania have exclusive jurisdiction over
+any dispute, controversy, or claim arising out of or relating to
+this Agreement, the Software, or its use, and the User irrevocably
+submits to the exclusive jurisdiction of those courts.
+
+Nothing in this clause limits a User who is a natural person acting
+outside their trade, business, or profession (a "consumer") from
+bringing proceedings in the courts of their country of habitual
+residence where mandatory consumer-protection law of that country
+grants them that right; in such cases, the substantive provisions
+of this Agreement still apply to the maximum extent permitted by
+that mandatory law.
+
+
+11. ENTIRE AGREEMENT + SEVERABILITY
+-----------------------------------
+
+This Agreement (including the binding clauses 1-11; the Plain-English
+Summary at the top is non-binding) is the entire agreement between
+the Licensor and the User concerning the Software and supersedes all
+prior or contemporaneous understandings, communications, or
+representations on the same subject matter, except for any
+separately-signed written agreement referenced in the preamble above
+and any separate agreement covering a Custom Extension (clause 3).
+
+If any provision of this Agreement is held by a court of competent
+jurisdiction to be invalid, illegal, or unenforceable, that provision
+shall be severed and the remaining provisions shall continue in full
+force and effect. The Licensor and the User shall negotiate in good
+faith a substitute provision that comes as close as possible to the
+intent of the severed provision while remaining enforceable.
+
+
+--------------------------------------------------------------------
+Version 3 replaces the earlier "Interim v2" of this Agreement. It
+removes the commercial-Bundle framework — pricing models, licence
+keys, activation, seat counts, and audit rights — none of which
+described anything the Licensor distributes. What remains governs
+exactly one thing: the free Software published on PyPI. Custom work
+is arranged separately (clause 3).
+
+The Licensor expects to have this Agreement reviewed by external
+counsel and may publish a revised version; under clause 2 any such
+revision applies to future releases and does not retroactively
+affect copies already obtained. Organisations entering significant
+commercial relationships are welcome to request the Licensor's
+then-current agreement and a Data Processing Addendum.
+--------------------------------------------------------------------
